@@ -1,0 +1,201 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  padding-left: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/**
+ * Respond
+ * ------------------------------------------------------
+ * Everything between small and medium:
+ * @include respond($break-small, $break-medium) { ... }
+ *
+ * Everything up to large:
+ * @include respond(0, $break-large) { ... }
+ *
+ * Everything beyond large:
+ * @include respond($break-large) { ...}
+ * ------------------------------------------------------
+ * $fixed-break variable is used for IE, and should be set
+ * in the _settings.scss file
+ * ------------------------------------------------------
+ * @param {integer} $min-width, can be 0
+ * @param {integer} $max-width, is false by default
+ */
+.inner {
+  max-width: 1280px; }
+  @media screen and (max-width: 440px) {
+    .inner {
+      padding: 0 4%; } }
+  @media screen and (min-width: 440px) and (max-width: 680px) {
+    .inner {
+      padding: 0 4%; } }
+  @media screen and (min-width: 680px) and (max-width: 1040px) {
+    .inner {
+      padding: 0 60px; } }
+  @media screen and (min-width: 1040px) {
+    .inner {
+      padding: 0 120px; } }
+
+.page-header {
+  display: block; }
+
+.page-header .inner {
+  height: auto; }
+
+.page-header .hero {
+  background-image: url("/Users/cmaher92/Development_Hub/personal-website/assets/hero.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px; }
+
+.page-introduction {
+  display: block; }
+
+.page-introduction .inner {
+  height: 250px;
+  background-color: #EFEFEF;
+  padding: 80px; }
+
+.page-introduction .introduction__title {
+  font: 45px arial, sans-serif;
+  color: #454545;
+  text-align: center; }
+
+.page-introduction .introduction__sub-title {
+  font: 16px arial, sans-serif;
+  color: #8E8E8E;
+  text-align: center; }
+
+.page-abouts {
+  display: block; }
+
+.page-abouts .inner {
+  height: 250px;
+  background-color: #FFF;
+  margin-top: 80px;
+  margin-bottom: 80px; }
+
+.page-abouts .container {
+  padding-left: 215px; }
+
+.page-abouts .abouts__description {
+  font: 25px arial, sans-serif;
+  text-align: center;
+  max-width: 600px;
+  color: #878787; }
+
+.page-abouts .social__links {
+  margin-left: 136px;
+  margin-top: 30px; }
+
+.page-abouts a {
+  margin-left: 35px; }
+
+.page-workflows {
+  display: block;
+  background-color: #D6574C; }
+
+.page-workflows .inner {
+  height: 400px;
+  margin-left: 310px; }
+
+.page-workflows .container {
+  padding-top: 100px; }
+
+.page-workflows .inner #form {
+  height: 400px; }
+
+.input-text {
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-bottom: 4px;
+  width: 400px;
+  display: block;
+  border: none;
+  margin-bottom: 8px;
+  font-size: 14px; }
+
+.textarea {
+  padding-top: 4px;
+  padding-left: 4px;
+  width: 400px;
+  font-size: 14px;
+  display: block;
+  border: none; }
+
+.button {
+  margin-top: 8px;
+  width: 200px;
+  margin-left: 100px; }
+
+.page-footers {
+  display: block;
+  background-color: #202020; }
+
+.page-footers .inner {
+  background-color: #202020;
+  height: 250px;
+  text-align: center;
+  padding-top: 75px; }
+
+.page-footers #closing {
+  color: #878787;
+  font: 14px arial, sans-serif; }
+
+.page-footers .social__links {
+  margin-top: 50px; }
+
+.page-footers a + a {
+  margin-left: 35px; }
+
+/*# sourceMappingURL=main.css.map */

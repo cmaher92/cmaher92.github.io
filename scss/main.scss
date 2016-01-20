@@ -1,0 +1,22 @@
+// How to build SASS
+// $ cd personal-website
+// $ sass -w scss/main.scss:css/main.css
+
+// Reset
+@import "reset/reset";
+@import "reset/box-resizing";
+
+// Settings
+@import "settings/colors";
+@import "settings/breakpoints";
+
+// Utils
+@import "utils/respond";
+
+// Components
+@import "components/inners";
+@import "components/page-headers";
+@import "components/page-introductions";
+@import "components/page-abouts";
+@import "components/page-workflows";
+@import "components/page-footers";

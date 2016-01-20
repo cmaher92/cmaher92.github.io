@@ -1,0 +1,44 @@
+.page-workflows {
+    display: block;
+    background-color: #D6574C;
+}
+
+.page-workflows .inner {
+    height: 400px;
+    margin-left: 310px;
+}
+
+.page-workflows .container {
+    padding-top: 100px;
+}
+
+.page-workflows .inner #form {
+    height: 400px;
+}
+
+.input-text {
+    padding-top: 4px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    width: 400px;
+    display: block;
+    border: none;
+    margin-bottom: 8px;
+    font-size: 14px;
+
+}
+
+.textarea {
+    padding-top: 4px;
+    padding-left: 4px;
+    width: 400px;
+    font-size: 14px;
+    display: block;
+    border: none;
+}
+
+.button {
+    margin-top: 8px;
+    width: 200px;
+    margin-left: 100px;
+}

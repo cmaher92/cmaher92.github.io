@@ -1,0 +1,23 @@
+.inner {
+    max-width: 1280px;
+
+    // 0 - 440px
+    @include respond(0, $bp-palm) {
+        padding: 0 4%;
+    }
+
+    // 440px - 680px
+    @include respond($bp-palm, $bp-hand) {
+        padding: 0 4%;
+    }
+
+    // 680px - 1040px
+    @include respond($bp-hand, $bp-lap) {
+        padding: 0 60px;
+    }
+
+    // 1040px - Infinity
+    @include respond($bp-lap) {
+        padding: 0 120px;
+    }
+}

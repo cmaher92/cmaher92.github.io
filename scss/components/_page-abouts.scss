@@ -1,0 +1,30 @@
+.page-abouts {
+    display: block;
+}
+
+.page-abouts .inner {
+    height: 250px;
+    background-color: #FFF;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.page-abouts .container {
+    padding-left: 215px;
+}
+
+.page-abouts .abouts__description{
+    font: 25px arial, sans-serif;
+    text-align: center;
+    max-width: 600px;
+    color: #878787;
+}
+
+.page-abouts .social__links {
+    margin-left: 136px;
+    margin-top: 30px;
+}
+
+.page-abouts a {
+    margin-left: 35px;
+}

@@ -1,0 +1,24 @@
+.page-footers {
+    display: block;
+    background-color: #202020;
+}
+
+.page-footers .inner {
+    background-color: #202020;
+    height: 250px;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.page-footers #closing {
+    color: #878787;
+    font: 14px arial, sans-serif;
+}
+
+.page-footers .social__links {
+    margin-top: 50px;
+}
+
+.page-footers a + a {
+    margin-left: 35px;
+}
